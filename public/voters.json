@@ -1,0 +1,23 @@
+[
+  {
+    "id": "bill-simmons",
+    "firstName": "Bill",
+    "lastName": "Simmons",
+    "roy": "Malcolm Brogden",
+    "mvp": "Russell Westbrook"
+  },
+  {
+    "id": "derek-bodner",
+    "firstName": "Derek",
+    "lastName": "Bodner",
+    "roy": "Joel Embiid",
+    "mvp": "James Harden"  
+  },
+  {
+    "id": "kevin-oconnor",
+    "firstName": "Kevin",
+    "lastName": "O'Connor",
+    "roy": "Malcolm Brogden",
+    "mvp": "Russell Westbrook"
+  }
+]

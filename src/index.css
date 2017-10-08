@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* below is code from body from demo css this was taken from */
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
