@@ -6,5 +6,47 @@ body {
   background-color: #FFF;
   display: flex;
   justify-content: center;
-  align-items: center; 
-}
+  align-items: center; }
+
+.full-page-div {
+  position: fixed;
+  /* Stay in place */
+  z-index: 100000;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */ }
+
+._loading-overlay {
+  height: 100%; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  /* Set the fixed height of the footer here */
+  line-height: 60px;
+  /* Vertically center the text there */ }
+
+.voter-profile-image {
+  height: 225px;
+  width: 225px; }
+
+.circle {
+  background: navy;
+  border-radius: 50px;
+  color: white;
+  height: 50px;
+  font-weight: bold;
+  width: 50px;
+  display: table;
+  margin: 20px auto; }
+
+.circle h2 {
+  vertical-align: middle;
+  display: table-cell; }

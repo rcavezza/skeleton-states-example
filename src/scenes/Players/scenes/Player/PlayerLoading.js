@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import '../Voter/index.css';
+import React, { Component } from 'react'
+import '../../index.css'
 
-class VoterLoading extends Component {
+class PlayerLoading extends Component {
   render() {
     return (
-      <div className="author-box col-12 col-sm-12 col-lg-6 waiting-on-data">
+      <div className="border border-dark p-4 col-12 col-sm-12 col-lg-6 waiting-on-data">
         <div className="author-image">
-          <div className='img-placeholder'></div>
+          <div className='avatar-placeholder'></div>
         </div>
         <div className="author-content">
           <h1 className="with-preview"></h1>
@@ -14,8 +14,8 @@ class VoterLoading extends Component {
           <p className="with-preview"></p>
         </div>
       </div>
-    );
+    )
   }
-};
+}
 
-export default VoterLoading;
+export default PlayerLoading

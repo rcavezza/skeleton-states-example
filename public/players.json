@@ -1,0 +1,93 @@
+{  
+  "james-harden": {
+    "id": "james-harden",
+    "firstName": "James",
+    "lastName": "Harden",
+    "mvpVotes": [
+      "43",
+      "8",
+      "24",
+      "14"
+    ],
+    "team": "Houston Rockets",
+    "image": "http://www.rotoworld.com/images/headshots/NBA/1597.jpg"
+  },
+  "stephen-curry": {
+    "id": "stephen-curry",
+    "firstName": "Stephen",
+    "lastName": "Curry",
+    "mvpVotes": [
+      "43",
+      "8",
+      "24",
+      "14"
+    ],
+    "team":"Golden State Warriors",
+    "image": "http://www.slate.com/content/dam/slate/blogs/the_slatest/2014/09/24/bill_simmons_suspended_listen_to_the_goodell_bashing_comments_that_got_the/469428129-sports-columnist-bill-simmons-attends-the-nba-all-star.jpg.CROP.promovar-medium2.jpg"
+  },
+  "kevin-durant": {
+    "id": "kevin-durant",
+    "firstName": "Kevin",
+    "lastName": "Durant",
+    "mvpVotes": [
+      "43",
+      "8",
+      "24",
+      "14"
+    ],
+    "team": "Golden State Warriors",
+    "image": "http://www.slate.com/content/dam/slate/blogs/the_slatest/2014/09/24/bill_simmons_suspended_listen_to_the_goodell_bashing_comments_that_got_the/469428129-sports-columnist-bill-simmons-attends-the-nba-all-star.jpg.CROP.promovar-medium2.jpg"
+  },
+  "russell-westbrook": {
+    "id": "russell-westbrook",
+    "firstName": "Russell",
+    "lastName": "Westbrook",
+    "mvpVotes": [
+      "43",
+      "8",
+      "24",
+      "14"
+    ],
+    "team": "Oklahoma City Thunder",
+    "image": "http://www.rotoworld.com/images/headshots/NBA/1509.jpg"
+  },
+  "lebron-james": {
+    "id": "lebron-james",
+    "firstName": "Lebron",
+    "lastName": "James",
+    "mvpVotes": [
+      "43",
+      "8",
+      "24",
+      "14"
+    ],
+    "team": "Cleveland Cavaliers",
+    "image": "http://www.rotoworld.com/images/headshots/NBA/927.jpg"
+  },
+  "kawhi-leonard": {
+    "id": "kawhi-leonard",
+    "firstName": "Kawhi",
+    "lastName": "Leonard",
+    "mvpVotes": [
+      "43",
+      "8",
+      "24",
+      "14"
+    ],
+    "team": "San Antonio Spurs",
+    "image": "http://www.rotoworld.com/images/headshots/NBA/1833.jpg"
+  },
+  "chris-paul": {
+    "id": "chris-paul",
+    "firstName": "Chris",
+    "lastName": "Paul",
+    "mvpVotes": [
+      "0",
+      "0",
+      "3",
+      "4"
+    ],
+    "team": "Houston Rockets",
+    "image": "http://www.rotoworld.com/images/headshots/NBA/1115.jpg"
+  }
+}

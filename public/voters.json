@@ -3,21 +3,48 @@
     "id": "bill-simmons",
     "firstName": "Bill",
     "lastName": "Simmons",
+    "mvpVotes": [
+      "russell-westbrook",
+      "james-harden",
+      "lebron-james",
+      "kawhi-leonard",
+      "chris-paul"
+    ],
     "roy": "Malcolm Brogden",
-    "mvp": "Russell Westbrook"
+    "mvp": "Russell Westbrook",
+    "company": "The Ringer",
+    "image": "http://www.slate.com/content/dam/slate/blogs/the_slatest/2014/09/24/bill_simmons_suspended_listen_to_the_goodell_bashing_comments_that_got_the/469428129-sports-columnist-bill-simmons-attends-the-nba-all-star.jpg.CROP.promovar-medium2.jpg"
   },
   {
     "id": "derek-bodner",
     "firstName": "Derek",
     "lastName": "Bodner",
+    "mvpVotes": [
+      "Russell Westbrook",
+      "James Harden",
+      "Lebron James",
+      "The Guy on the Spurts",
+      "Chris Paul"
+    ],
     "roy": "Joel Embiid",
-    "mvp": "James Harden"  
+    "mvp": "James Harden",
+    "company": "The Athletic",
+    "image": "https://pbs.twimg.com/profile_images/508813330165673984/-Jjql4hh.png"
   },
   {
     "id": "kevin-oconnor",
     "firstName": "Kevin",
     "lastName": "O'Connor",
+    "mvpVotes": [
+      "Russell Westbrook",
+      "James Harden",
+      "Lebron James",
+      "The Guy on the Spurts",
+      "Chris Paul"
+    ],
     "roy": "Malcolm Brogden",
-    "mvp": "Russell Westbrook"
+    "mvp": "Russell Westbrook",
+    "company": "The Ringer",
+    "image": "https://pbs.twimg.com/profile_images/801826179611262976/MPulpdrP_400x400.jpg"
   }
 ]

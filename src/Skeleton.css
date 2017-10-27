@@ -1,13 +1,69 @@
-.waiting-on-data h1.with-preview {
+/*h1.with-preview {
   height: 22px;
-  width: 200px;
   background: #e0e0e0;
 }
 
-.waiting-on-data p.with-preview {
+h2.with-preview {
+  height: 22px;
+  background: #e0e0e0;
+}
+
+h5.with-preview {
+  height: 15px;
+  background: #e0e0e0;
+}
+
+p.with-preview {
+  height: 12px;
+  background: rgba(224, 224, 224, 0.6);
+}*/
+
+/* class="skeleton-text small half-width" */
+
+.skeleton-text {
+  background: #e0e0e0;
+}
+
+div.skeleton-text{
+  margin: 6px 0;  
+}
+
+.tiny {
+  height: 5px;
+}
+
+.small {
+  height: 10px;
+}
+
+.medium {
+  height: 15px;
+}
+
+.large {
+  height: 20px;
+}
+
+
+.text-preview {
   height: 10px;
   width: 150px;
-  background: rgba(224, 224, 224, 0.6);
+}
+
+.quarter-width {
+  width: 25%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.three-quarters-width {
+  width: 75%;
+}
+
+.full-width {
+  width: 100%;
 }
 
 .waiting-on-data .disabled-in-preview {
@@ -26,29 +82,37 @@
   height: 100%;
 }
 
-.img-placeholder {
+.img-placeholder, .avatar-placeholder, .circle-img-placeholder {
   width: 100%;
   height: 100%;
   overflow: hidden;
   text-align: center;
 }
 
-.img-placeholder:before,
-.img-placeholder:after {
+.img-placeholder, .circle-img-placeholder {
+  background-color: #e0e0e0;
+}
+
+.circle-img-placeholder {
+  border-radius: 50%;
+}
+
+.avatar-placeholder:before,
+.avatar-placeholder:after {
   content: ' ';
   display: block;
   margin: 0 auto;
   background: #b2b1b1;
 }
 
-.img-placeholder:before {
+.avatar-placeholder:before {
   width: 40%;
   height: 45%;
   margin-top: 24%;
   border-radius: 100%;
 }
 
-.img-placeholder:after {
+.avatar-placeholder:after {
   width: 66%;
   height: 100%;
   margin-top: -2px;
