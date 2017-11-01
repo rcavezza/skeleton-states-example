@@ -9,7 +9,7 @@ const FullPageLoader = () => {
         spinner
         text='Loading your content...'
         >
-        <p>_</p>
+        <p>&nbsp;</p>
       </Loadable>
     </div>
   )
