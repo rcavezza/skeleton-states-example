@@ -5,10 +5,6 @@ import VoteCategoryRow from './VoteCategoryRow'
 import EachVoteSkeleton from './EachVoteSkeleton'
 
 const voterCategoryRow = (props) => {
-  console.log(props);
-  console.log(props);
-  console.log(props);
-  console.log(props);
   if(props.loading) {
       return (
         <Aux>

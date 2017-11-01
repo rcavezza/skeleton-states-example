@@ -22,6 +22,7 @@ class EachVote extends Component {
     axios.get(`../players.json`)
       .then(res => {
         const players = res.data 
+
         const loadTime = this.randomSecondsOneThroughSix()
 
         setTimeout(() => {

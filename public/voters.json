@@ -20,11 +20,11 @@
     "firstName": "Derek",
     "lastName": "Bodner",
     "mvpVotes": [
-      "Russell Westbrook",
-      "James Harden",
-      "Lebron James",
-      "The Guy on the Spurts",
-      "Chris Paul"
+      "russell-westbrook",
+      "james-harden",
+      "lebron-james",
+      "kawhi-leonard",
+      "chris-paul"
     ],
     "roy": "Joel Embiid",
     "mvp": "James Harden",
@@ -36,11 +36,11 @@
     "firstName": "Kevin",
     "lastName": "O'Connor",
     "mvpVotes": [
-      "Russell Westbrook",
-      "James Harden",
-      "Lebron James",
-      "The Guy on the Spurts",
-      "Chris Paul"
+      "russell-westbrook",
+      "james-harden",
+      "kevin-durant",
+      "stephen-curry",
+      "chris-paul"
     ],
     "roy": "Malcolm Brogden",
     "mvp": "Russell Westbrook",
