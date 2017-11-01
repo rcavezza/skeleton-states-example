@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import PropTypes from 'prop-types'
 import Aux from 'react-aux'
 
-import Image from '../../../../../components/common/Image'
-import OrderedList from '../../../../../components/common/OrderedList'
 import VoterHeader from './VoterHeader.js'
 import VoterBody from './VoterBody.js'
 
@@ -35,11 +32,10 @@ class VoterProfile extends Component {
   }
 
   render() {
-    if (this.state.loading) return <div />;
     return (
       <Aux>
-        <VoterHeader voter={this.state.voter} />
-        <VoterBody voter={this.state.voter}  />
+        <VoterHeader voter={this.state.voter} loading={this.state.loading} />
+        <VoterBody voter={this.state.voter} loading={this.state.loading} />
       </Aux>
     )
   }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
 import axios from 'axios'
 
+import EachVoteSkeleton from './EachVoteSkeleton'
 import Image from '../../../../../components/common/Image'
 
 class EachVote extends Component { 
@@ -14,19 +14,24 @@ class EachVote extends Component {
     }
   }
 
+  randomSecondsOneThroughSix() {
+    return (Math.floor(Math.random() * 6) + 1) * 1000
+  }
+
   componentDidMount() {
     axios.get(`../players.json`)
       .then(res => {
         const players = res.data 
+        const loadTime = this.randomSecondsOneThroughSix()
 
         setTimeout(() => {
           this.setState({ loading: false, player: players[this.props.playerId] })
-        }, 4000)
+        }, loadTime)
       })
   }
 
   render() {
-    if(this.state.loading) return <div />
+    if(this.state.loading) return <EachVoteSkeleton rank={this.props.rank} />
     return (
       <div className="col-4">
         <div className="row">

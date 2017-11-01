@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import PropTypes from 'prop-types'
-import Skeleton from 'react-loading-skeleton'
 import Aux from 'react-aux'
 
 import OrderedList from '../../../../components/common/OrderedList'

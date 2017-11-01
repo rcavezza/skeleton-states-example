@@ -22,29 +22,20 @@ class Players extends Component {
         const players = res.data
 
         setTimeout(() => {
-          console.log(players)
           this.setState({ loading: false, players: players })
         }, 4000)
       })
   }
 
   render() {
-    if(this.state.loading)
-    {
-      return ReactDOM.createPortal(
-        <PlayersLoading />,
-        document.body
-      )        
-    }
-    else {
-      return (
-        <div className="row">
-          {this.state.players.map(player =>
-            <PlayerSquare player={player} key={player.id} />
-          )}
-        </div>
-      )      
-    }
+    if(this.state.loading) return ReactDOM.createPortal(<PlayersLoading />,document.body)
+    return (
+      <div className="row">
+        {Object.keys(this.state.players).map( (playerId, key) => 
+          <PlayerSquare player={this.state.players[playerId]} key={key} />
+        )}
+      </div>
+    )
   }
 }
 

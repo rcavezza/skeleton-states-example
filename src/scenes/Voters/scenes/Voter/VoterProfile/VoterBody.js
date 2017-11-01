@@ -1,27 +1,38 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React from 'react'
 import Aux from 'react-aux'
 
-import OrderedList from '../../../../../components/common/OrderedList'
 import VoteCategoryRow from './VoteCategoryRow'
+import EachVoteSkeleton from './EachVoteSkeleton'
 
-class VoterBody extends Component {
-  constructor(props) {
-    super(props)
-  }
+const voterCategoryRow = (props) => {
+  console.log(props);
+  console.log(props);
+  console.log(props);
+  console.log(props);
+  if(props.loading) {
+      return (
+        <Aux>
+          {[1,2,3,4,5].map(rank =>
+            <EachVoteSkeleton rank={rank} key={rank} />
+          )}
+        </Aux>
+      )
+    } else {
+      return <VoteCategoryRow votes={props.voter.mvpVotes} />
+    }
+}
 
-  render() {
-    return (
-      <Aux>
-        <div className="row">
-          <h4>MVP Votes</h4>
-        </div>
-        <div className="row">
-          <VoteCategoryRow votes={this.props.voter.mvpVotes} />
-        </div>
-      </Aux>
-    )
-  }
+const VoterBody = (props) => {
+  return (
+    <Aux>
+      <div className="row">
+        <h4>MVP Votes</h4>
+      </div>
+      <div className="row">
+        {voterCategoryRow(props)}
+      </div>
+    </Aux>
+  )
 }
 
 export default VoterBody
