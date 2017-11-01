@@ -37,6 +37,10 @@ body {
   height: 225px;
   width: 225px; }
 
+.each-vote-player-image {
+  height: 135px;
+  width: 100px; }
+
 .circle {
   background: navy;
   border-radius: 50px;
