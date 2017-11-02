@@ -22,7 +22,9 @@ const VoterBody = (props) => {
   return (
     <Aux>
       <div className="row">
-        <h4>MVP Votes</h4>
+        <div className="col-12 mt-2">
+          <h4>MVP Votes</h4>
+        </div>
       </div>
       <div className="row">
         {voterCategoryRow(props)}
