@@ -29,6 +29,7 @@ Notes on the application. In this current version, the areas with voter data are
 
 This project was first demo'd at Boston Code Camp on November 18, in Burlington, MA.
 
+There is a live demo hosted on heroku at https://pacific-meadow-91348.herokuapp.com/
 
 
 --------
