@@ -27,7 +27,7 @@ class VoterProfile extends Component {
 
         setTimeout(() => {
           this.setState({ loading: false, voter: voters.find(this.findVoter) })
-        }, 2000)
+        }, 3000)
       })
   }
 

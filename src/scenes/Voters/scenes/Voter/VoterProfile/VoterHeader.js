@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from '../../../../../components/common/Image'
 import VoterHeaderSkeleton from './VoterHeaderSkeleton'
+import Loader from '../../../../../components/common/Loader'
 
 const VoterHeader = props => {
   if(props.loading) return (
-    <VoterHeaderSkeleton />
+    <Loader />
   )
   else return (
     <div className="row align-items-end">

@@ -3,13 +3,14 @@ import Aux from 'react-aux'
 
 import VoteCategoryRow from './VoteCategoryRow'
 import EachVoteSkeleton from './EachVoteSkeleton'
+import Loader from '../../../../../components/common/Loader'
 
 const voterCategoryRow = (props) => {
   if(props.loading) {
       return (
         <Aux>
           {[1,2,3,4,5].map(rank =>
-            <EachVoteSkeleton rank={rank} key={rank} />
+            <Loader />
           )}
         </Aux>
       )

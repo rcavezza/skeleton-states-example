@@ -3,6 +3,7 @@ import axios from 'axios'
 
 import EachVoteSkeleton from './EachVoteSkeleton'
 import Image from '../../../../../components/common/Image'
+import Loader from '../../../../../components/common/Loader'
 
 class EachVote extends Component { 
   constructor(props) {
@@ -32,7 +33,7 @@ class EachVote extends Component {
   }
 
   render() {
-    if(this.state.loading) return <EachVoteSkeleton rank={this.props.rank} />
+    if(this.state.loading) return <Loader />
     return (
       <div className="col-4">
         <div className="row">
