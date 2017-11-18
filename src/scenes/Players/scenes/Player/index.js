@@ -54,7 +54,7 @@ class PlayerProfile extends Component {
             {this.state.player.company}
             <h4>MVP Votes</h4>
             <OrderedList values={this.state.player.mvpVotes} />
-            <img src={this.state.player.image} alt="{this.state.player.firstName}'s avatar" />
+            <img src={`../${this.state.player.image}`} alt="{this.state.player.firstName}'s avatar" />
           </div>
         </div>         
       )        

@@ -42,7 +42,7 @@ class EachVote extends Component {
           <div className="col-3">
             <span>
               <Image 
-                src={this.state.player.image} 
+                src={`../${this.state.player.image}`} 
                 className="each-vote-player-image" 
                 alt="{this.state.player.firstName}'s avatar" 
               />

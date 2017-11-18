@@ -10,7 +10,7 @@
       "14"
     ],
     "team": "Houston Rockets",
-    "image": "http://www.rotoworld.com/images/headshots/NBA/1597.jpg"
+    "image": "img/james-harden.jpg"
   },
   "stephen-curry": {
     "id": "stephen-curry",
@@ -23,7 +23,7 @@
       "14"
     ],
     "team":"Golden State Warriors",
-    "image": "http://www.rotoworld.com/images/headshots/NBA/1611.jpg"
+    "image": "img/stephen-curry.jpg"
   },
   "kevin-durant": {
     "id": "kevin-durant",
@@ -36,7 +36,7 @@
       "14"
     ],
     "team": "Golden State Warriors",
-    "image": "http://www.rotoworld.com/images/headshots/NBA/1358.jpg"
+    "image": "img/kevin-durant.jpg"
   },
   "russell-westbrook": {
     "id": "russell-westbrook",
@@ -49,7 +49,7 @@
       "14"
     ],
     "team": "Oklahoma City Thunder",
-    "image": "http://www.rotoworld.com/images/headshots/NBA/1509.jpg"
+    "image": "img/russell-westbrook.jpg"
   },
   "lebron-james": {
     "id": "lebron-james",
@@ -62,7 +62,7 @@
       "14"
     ],
     "team": "Cleveland Cavaliers",
-    "image": "http://www.rotoworld.com/images/headshots/NBA/927.jpg"
+    "image": "img/lebron-james.jpg"
   },
   "kawhi-leonard": {
     "id": "kawhi-leonard",
@@ -75,7 +75,7 @@
       "14"
     ],
     "team": "San Antonio Spurs",
-    "image": "http://www.rotoworld.com/images/headshots/NBA/1833.jpg"
+    "image": "img/kawhi-leonard.jpg"
   },
   "chris-paul": {
     "id": "chris-paul",
@@ -88,6 +88,6 @@
       "4"
     ],
     "team": "Houston Rockets",
-    "image": "http://www.rotoworld.com/images/headshots/NBA/1115.jpg"
+    "image": "img/chris-paul.jpg"
   }
 }

@@ -13,7 +13,7 @@
     "roy": "Malcolm Brogden",
     "mvp": "Russell Westbrook",
     "company": "The Ringer",
-    "image": "http://www.slate.com/content/dam/slate/blogs/the_slatest/2014/09/24/bill_simmons_suspended_listen_to_the_goodell_bashing_comments_that_got_the/469428129-sports-columnist-bill-simmons-attends-the-nba-all-star.jpg.CROP.promovar-medium2.jpg"
+    "image": "img/bill-simmons.jpg"
   },
   {
     "id": "derek-bodner",
@@ -29,7 +29,7 @@
     "roy": "Joel Embiid",
     "mvp": "James Harden",
     "company": "The Athletic",
-    "image": "https://pbs.twimg.com/profile_images/508813330165673984/-Jjql4hh.png"
+    "image": "img/derek-bodner.png"
   },
   {
     "id": "kevin-oconnor",
@@ -45,6 +45,6 @@
     "roy": "Malcolm Brogden",
     "mvp": "Russell Westbrook",
     "company": "The Ringer",
-    "image": "https://pbs.twimg.com/profile_images/801826179611262976/MPulpdrP_400x400.jpg"
+    "image": "img/kevin-oconnor.jpg"
   }
 ]
