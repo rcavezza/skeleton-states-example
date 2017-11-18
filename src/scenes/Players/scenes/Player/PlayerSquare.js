@@ -8,7 +8,7 @@ import '../../index.css'
 
 const PlayerSquare = ({player}) => {
   return (
-    <div className="col-4">
+    <div className="col-4 mb-4">
       <div className="row">
         <div className="col-3">
           <span>

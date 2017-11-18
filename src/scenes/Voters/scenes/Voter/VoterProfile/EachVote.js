@@ -34,7 +34,7 @@ class EachVote extends Component {
   render() {
     if(this.state.loading) return <EachVoteSkeleton rank={this.props.rank} />
     return (
-      <div className="col-4">
+      <div className="col-4 mb-4">
         <div className="row">
           <div className="col-3">
             <span className="circle text-center"><h2>{this.props.rank}</h2></span>

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const EachVoteSkeleton = (props) => (
-  <div className="col-4">
+  <div className="col-4 mb-4">
     <div className="row">
       <div className="col-3">
         <span className="circle text-center"><h2>{props.rank || 1}</h2></span>
